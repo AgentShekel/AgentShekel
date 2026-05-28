@@ -18,22 +18,25 @@ LLM-продукты.
 
 ## Избранные проекты
 
-### [agentic-workflow](https://github.com/ElPinus/agentic-workflow) — фреймворк многоагентной разработки на Claude Code
+### [agentic-workflow](https://github.com/AgentShekel/agentic-workflow) — фреймворк многоагентной разработки на Claude Code
 
 Tier-aware acceptance (S/M/L), filesystem-isolated adversary-проверки
 в свежих subprocess'ах, cross-family второе мнение через Codex MCP
-(GPT-5), человек как supreme judge на критических переходах.
-60 специализированных агентов, 45 методологических skills,
-21 Python-скрипт оркестрации.
+(GPT-5), разделение ролей acceptor/optimizer (per-engagement менеджеры
+vs out-of-band оптимизаторы SkillOpt-стиля), event ledger observability,
+человек как supreme judge на критических переходах.
+66 специализированных агентов, 48 методологических skills,
+14 + 3 Python-скрипта оркестрации, 2 LangGraph движка с native HITL
+`interrupt()`.
 
 Решает три типичных провала single-model agent pipelines: framing
 contamination, Goodhart на validators, undifferentiated rigour.
 
-Стек: Python · Claude · Codex · MCP · Mermaid
+Стек: Python · LangGraph · Pydantic · SQLite · Claude · Codex · MCP · Mermaid
 
 ---
 
-### [call-analytics-system](https://github.com/ElPinus/call-analytics-system) — LLM-сервис речевой аналитики звонков (case-study)
+### [call-analytics-system](https://github.com/AgentShekel/call-analytics-system) — LLM-сервис речевой аналитики звонков (case-study)
 
 Продакшен-сервис для анализа звонков отдела продаж и клиентского
 сервиса. Приём звонков из CRM, STT + диаризация + LLM-оценка, push
@@ -46,7 +49,7 @@ PostgreSQL · React · TypeScript · Fernet encryption · JWT + RBAC
 
 ---
 
-### [content-generation-pipeline](https://github.com/ElPinus/content-generation-pipeline) — композируемая платформа генерации контента (case-study)
+### [content-generation-pipeline](https://github.com/AgentShekel/content-generation-pipeline) — композируемая платформа генерации контента (case-study)
 
 Multi-tenant платформа с UI-конструктором пайплайнов, переиспользуемыми
 стадиями, human-in-the-loop approval как полноценным типом стадии и
@@ -58,7 +61,7 @@ PostgreSQL · React · TypeScript · Fernet encryption · JWT
 
 ---
 
-### [hh-bot](https://github.com/ElPinus/hh-bot) — Telegram-бот с LLM-фильтрацией вакансий
+### [hh-bot](https://github.com/AgentShekel/hh-bot) — Telegram-бот с LLM-фильтрацией вакансий
 
 Browser-automation пайплайн для поиска вакансий, LLM-оценка
 релевантности с маршрутизацией по баллу (автодействие / ручное /

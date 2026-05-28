@@ -18,21 +18,24 @@ API, and watches the production logs.
 
 ## Selected work
 
-### [agentic-workflow](https://github.com/ElPinus/agentic-workflow) — multi-agent framework for Claude Code
+### [agentic-workflow](https://github.com/AgentShekel/agentic-workflow) — multi-agent framework for Claude Code
 
 Tier-aware acceptance (S/M/L), filesystem-isolated adversary review in
 fresh subprocesses, cross-family second opinion via Codex MCP (GPT-5),
-human as supreme judge at critical transitions. 60 specialized agents,
-45 methodology skills, 21 Python orchestration scripts.
+acceptor/optimizer role split (per-engagement managers vs out-of-band
+SkillOpt-style optimizers), event ledger observability, human as supreme
+judge at critical transitions. 66 specialized agents, 48 methodology
+skills, 14 + 3 Python orchestration scripts, 2 LangGraph engines with
+native HITL `interrupt()`.
 
 Solves three failure modes of single-model agent pipelines: framing
 contamination, Goodhart on validators, and undifferentiated rigour.
 
-Stack: Python · Claude · Codex · MCP · Mermaid
+Stack: Python · LangGraph · Pydantic · SQLite · Claude · Codex · MCP · Mermaid
 
 ---
 
-### [call-analytics-system](https://github.com/ElPinus/call-analytics-system) — LLM call analytics service (architecture case-study)
+### [call-analytics-system](https://github.com/AgentShekel/call-analytics-system) — LLM call analytics service (architecture case-study)
 
 Production LLM service for sales / customer-service call analysis.
 Ingests calls from CRMs, runs STT + diarization + LLM scoring,
@@ -45,7 +48,7 @@ PostgreSQL · React · TypeScript · Fernet encryption · JWT + RBAC
 
 ---
 
-### [content-generation-pipeline](https://github.com/ElPinus/content-generation-pipeline) — composable content generation platform (architecture case-study)
+### [content-generation-pipeline](https://github.com/AgentShekel/content-generation-pipeline) — composable content generation platform (architecture case-study)
 
 Multi-tenant platform with a UI pipeline builder, reusable stages,
 human-in-the-loop approvals as a first-class stage type, and
@@ -57,7 +60,7 @@ PostgreSQL · React · TypeScript · Fernet encryption · JWT
 
 ---
 
-### [hh-bot](https://github.com/ElPinus/hh-bot) — Telegram bot for LLM-driven job filtering
+### [hh-bot](https://github.com/AgentShekel/hh-bot) — Telegram bot for LLM-driven job filtering
 
 Browser-automation pipeline for vacancy search, LLM-based relevance
 scoring with score-driven routing (auto-apply / manual / skip), cover
