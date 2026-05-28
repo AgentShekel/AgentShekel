@@ -12,7 +12,7 @@ code, and product decisions on the same team — the kind of role where
 the same person picks the model, designs the agent flow, writes the
 API, and watches the production logs.
 
-📫 Telegram [@Crimson_Beherit](https://t.me/Crimson_Beherit)
+📫 Telegram [@agent_shekel](https://t.me/agent_shekel)
 
 ---
 
