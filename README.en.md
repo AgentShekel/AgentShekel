@@ -32,6 +32,7 @@ I own the architecture, model choices, and economics; I assemble the implementat
 ### [call-analytics-system](https://github.com/AgentShekel/call-analytics-system)
 
 Call analytics service for sales and customer-service teams: pulls calls from the CRM, runs speech recognition, transcription, diarization, and LLM scoring, and returns the result with detailed recommendations on each conversation. Delivered as SaaS and on-premise, with model providers behind an abstraction. I led the architecture, implementation, model and cost choices, unit economics, and analysis quality. Modules built for Bitrix24 (cloud and on-premise), AmoCRM, Planfix.
+The product is publicly marketed by its vendor: [irainbox.ru](https://irainbox.ru)
 
 Stack: Python, FastAPI, PostgreSQL, Celery, Redis, React, TypeScript
 
